@@ -1,0 +1,31 @@
+git init   --> Initialise empty git repo in local storage. And create hidden .git folder.
+
+git status   --> Shows tracked and untracked files.
+
+git add (filename)   --> Add file in staging area.
+git add .  or git add -(a or A) --> Add all files in staging area.
+
+git rm --cached (filename)   --> Unstage file.
+git rm -f  (filename)   --> Deletes file.
+
+git commit -m "(Message of commit eg. First Commit)"   -->Takes snapshot of files.
+
+***How to connect local repo with remote repo created on github.
+git remote add origin (link of git repo eg. "https://github.com/MrBucks07/(repo name).git")
+
+git branch -M main   --> Set default branch as main.Because from 2019 changes default branch in github is main and in git default branch is master.
+
+git remote   --> Shows the the origin,
+git remote -v  --> Shows the origin url
+
+git branch   --> Shows all branches present.
+git branch (branch name)   --> Creates new branch.
+git checkout (branch name)   --> Switch to the branch specified.
+git branch -(d or D) (branch name)   --> Deletes branch specified. 
+
+git push -u origin main   --> Pushes code from local to remote server.
+git pull origin main   --> Pulls code from remote server to local.
+
+
+
+
