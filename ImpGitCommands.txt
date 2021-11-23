@@ -26,6 +26,8 @@ git branch -(d or D) (branch name)   --> Deletes branch specified.
 git push -u origin main   --> Pushes code from local to remote server.
 git pull origin main   --> Pulls code from remote server to local.
 
-
+***When we create repo on github with readme file,we have to rebase repo to push code from local repo.
+We have to pull that repo first and then push it again.
+git pull --rebase origin main
 
 
