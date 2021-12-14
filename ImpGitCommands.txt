@@ -1,3 +1,15 @@
+/**
+ * Getting Started Git Commands.
+ * Author : Kartik panchal. 
+ */
+
+git config user.name "(type username you want to set)"   --> Sets username for that particular project only.
+git config --global user.name "(type username you wnat to set)"   --> Sets username globally for all.
+git config user.email "(type email you want to set)"   --> Sets email for that particular project only.
+git config --global user.email "(type email you want to set)"   --> Sets username for all.
+git config user.name   --> logs username.
+git config user.name   --> logs email.  
+
 git init   --> Initialise empty git repo in local storage. And create hidden .git folder.
 
 git status   --> Shows tracked and untracked files.
@@ -9,6 +21,7 @@ git rm --cached (filename)   --> Unstage file.
 git rm -f  (filename)   --> Deletes file.
 
 git commit -m "(Message of commit eg. First Commit)"   -->Takes snapshot of files.
+git log   -->Logs recent Commits.
 
 ***How to connect local repo with remote repo created on github.
 git remote add origin (link of git repo eg. "https://github.com/MrBucks07/(repo name).git")
@@ -31,3 +44,5 @@ We have to pull that repo first and then push it again.
 git pull --rebase origin main
 
 
+***More advanced Commands on this link.
+https://gist.github.com/davfre/8313299
