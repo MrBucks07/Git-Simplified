@@ -31,11 +31,6 @@ git branch -M main   --> Set default branch as main.Because from 2019 changes de
 git remote   --> Shows the the origin,
 git remote -v  --> Shows the origin url
 
-git branch   --> Shows all branches present.
-git branch (branch name)   --> Creates new branch.
-git checkout (branch name)   --> Switch to the branch specified.
-git branch -(d or D) (branch name)   --> Deletes branch specified. 
-
 git push -u origin main   --> Pushes code from local to remote server.
 git pull origin main   --> Pulls code from remote server to local.
 
@@ -43,6 +38,23 @@ git pull origin main   --> Pulls code from remote server to local.
 We have to pull that repo first and then push it again.
 git pull --rebase origin main
 
+***If we want to add some code and we are not sure that it will work then,
+1.Create new branch.
+git branch   --> Shows all branches present.
+git branch (branch name)   --> Creates new branch.
+
+2.Move to that branch.
+git checkout (branch name)   --> Switch to the branch specified.
+
+3.Modify or add some code and then commit and push it to remote.
+--use above adding,commiting and pushing commands.
+
+4.If that modified code works fine merge with main branch.
+(first checkout to main branch)
+git merge (branch name you want to merge)   --> Merges branch to main.
+
+5.And you want to delete that branch (optional).
+git branch -(d or D) (branch name)   --> Deletes branch specified. 
 
 ***More advanced Commands on this link.
 https://gist.github.com/davfre/8313299
