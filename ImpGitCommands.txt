@@ -6,7 +6,7 @@
 git config user.name "(type username you want to set)"   --> Sets username for that particular project only.
 git config --global user.name "(type username you wnat to set)"   --> Sets username globally for all.
 git config user.email "(type email you want to set)"   --> Sets email for that particular project only.
-git config --global user.email "(type email you want to set)"   --> Sets username for all.
+git config --global user.email "(type email you want to set)"   --> Sets email globally for all.
 git config user.name   --> logs username.
 git config user.name   --> logs email.  
 
