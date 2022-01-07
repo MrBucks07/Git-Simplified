@@ -54,7 +54,8 @@ git checkout (branch name)   --> Switch to the branch specified.
 git merge (branch name you want to merge)   --> Merges branch to main.
 
 5.And you want to delete that branch (optional).
-git branch -(d or D) (branch name)   --> Deletes branch specified. 
+git branch -(d or D) (branch name)   --> Deletes branch from local specified.
+git push origin --delete (branchname)   -->Deletes branch from remote specified.
 
 ***More advanced Commands on this link.
 https://gist.github.com/davfre/8313299
